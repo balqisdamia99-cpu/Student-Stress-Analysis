@@ -1,4 +1,4 @@
-# Student Stress Level Analysis
+# Analysis and Prediction of Stress Factors Among College Students
 This project analyzes factors that affect student stress levels based on a national survey dataset. The analysis was performed using a Random Forest Classifier to predict the `stress_level` category.
 
 * **File Name**: `StressLevelDataset.csv`
