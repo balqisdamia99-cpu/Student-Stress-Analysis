@@ -1,10 +1,10 @@
 # Student Stress Level Analysis
 This project analyzes factors that affect student stress levels based on a national survey dataset. The analysis was performed using a Random Forest Classifier to predict the `stress_level` category.
 
-**File Name: `StressLevelDataset.csv`
-**Number of Data Points: 1100 rows × 21 columns
-**Target: `stress_level` (3 classes)
-**Dataset Link: https://www.kaggle.com/datasets/mdsultanulislamovi/student-stress-monitoring-datasets/data
+* **File Name**: `StressLevelDataset.csv`
+* **Number of Data Points: 1100 rows × 21 columns**
+* **Target: `stress_level` (3 classes)
+* **Dataset Link: https://www.kaggle.com/datasets/mdsultanulislamovi/student-stress-monitoring-datasets/data
 
 ## Analysis Process
 1. Data loading & initial exploration (EDA) → check structure, target distribution, unique values.
@@ -22,7 +22,7 @@ This project analyzes factors that affect student stress levels based on a natio
   * `sleep_quality`
   * `teacher_student_relationship`
   * `academic_performance`
-* Visualization: *Horizontal bar chart (feature importance).
+* Visualization: *Horizontal bar chart (feature importance).*
 
 ## Conclusion & Recommendation
 1. Students need to manage their study and sleep schedules to keep stress under control.
