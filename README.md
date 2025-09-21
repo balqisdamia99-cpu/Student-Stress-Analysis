@@ -3,8 +3,9 @@ This project analyzes factors that affect student stress levels based on a natio
 
 * **File Name**: `StressLevelDataset.csv`
 * **Number of Data Points: 1100 rows × 21 columns**
-* **Target: `stress_level` (3 classes)
-* **Dataset Link: https://www.kaggle.com/datasets/mdsultanulislamovi/student-stress-monitoring-datasets/data
+* **Target:** `stress_level` (3 classes)
+* **Dataset Link:** https://www.kaggle.com/datasets/mdsultanulislamovi/student-stress-monitoring-datasets/data
+* **Open in Google Colab:** https://colab.research.google.com/drive/1RtiUCX3CXCnqcbO4BlOYnymo85XFSd3R?usp=sharing
 
 ## Analysis Process
 1. Data loading & initial exploration (EDA) → check structure, target distribution, unique values.
