@@ -1,32 +1,34 @@
-# Student Stress Level Analysis
+**Student Stress Level Analysis**
+This project analyzes factors that affect student stress levels based on a national survey dataset. The analysis was performed using a Random Forest Classifier to predict the `stress_level` category.
 
-Proyek ini menganalisis faktor-faktor yang memengaruhi tingkat stres mahasiswa berdasarkan dataset survei nasional. Analisis menggunakan metode machine learning dengan fokus pada **Random Forest Classifier** untuk memprediksi level stres.
+File Name: `StressLevelDataset.csv`
+Number of Data Points: 1100 rows × 21 columns
+Target: `stress_level` (3 classes)
+Dataset Link: https://www.kaggle.com/datasets/mdsultanulislamovi/student-stress-monitoring-datasets/data
 
-* **Nama File**: StressLevelDataset.csv
-* **Jumlah Data**: 1100 baris × 21 kolom
-* **Target**: stress_level (3 kelas)
-* **Link Dataset**: https://www.kaggle.com/datasets/mdsultanulislamovi/student-stress-monitoring-datasets/data
+**Analysis Process**
+1. Data loading & initial exploration (EDA) → check structure, target distribution, unique values.
+2. Visualization of stress factors → psychological, academic, social, environmental.
+3. Preprocessing → check missing values (none), encoding (not necessary, all numeric), normalization (optional).
+4. Modeling with Random Forest Classifier → predict `stress_level`.
+5. Model evaluation → confusion matrix & classification report.
+6. Feature importance interpretation → dominant factors causing student stress.
 
-## Analysis Process
-1. Data loading dan eksplorasi awal (EDA)
-2. Visualisasi faktor psikologis, akademik, sosial, dan lingkungan
-3. Preprocessing: cek missing values, encoding (jika ada variabel kategori), normalisasi
-4. Modeling dengan **Random Forest Classifier**
-5. Evaluasi model menggunakan confusion matrix & classification report
-6. Interpretasi feature importance untuk melihat faktor dominan penyebab stres
+**Insights & Findings**
+* The **Random Forest** model was chosen because the target (`stress_level`) is **categorical classification**, not regression.
+* **Model accuracy**: **89.1%**.
+* **Dominant factors affecting stress**:
+  * `blood_pressure`
+  * `sleep_quality`
+  * `teacher_student_relationship`
+  * `academic_performance`
+* Visualization: *Horizontal bar chart (feature importance).
 
-## Insights & Findings
-* Faktor yang paling memengaruhi stres mahasiswa: `study_load`, `future_career_concerns`, `sleep_quality`, dan `academic_performance`.
-* Model Random Forest memiliki akurasi lebih tinggi dibanding Linear Regression (karena target bersifat kategori).
-* Kualitas tidur yang buruk + beban studi tinggi = risiko stres berat.
+**Conclusion & Recommendation**
+1. Students need to manage their study and sleep schedules to keep stress under control.
+2. Campuses should strengthen academic support, counseling, and faculty-student relationships.
+3. Social factors such as peer pressure and bullying also need to be monitored as they have long-term effects.
 
-## Conclusion & Recommendation
-* Mahasiswa perlu mengatur manajemen waktu belajar & tidur agar tingkat stres terkendali.
-* Kampus bisa meningkatkan dukungan akademik & konseling karier.
-* Faktor sosial (peer pressure & bullying) juga harus dipantau karena berdampak pada stres jangka panjang.
-
-## AI Support Explanation
-Dalam proyek ini, AI digunakan untuk:
-
-* **IBM Granite (WatsonX)** → menjalankan eksperimen machine learning (Random Forest) & interpretasi hasil.
-* **Gemini / ChatGPT** → membantu menyusun insight, kesimpulan.
+**AI Support Explanation**
+* IBM Granite → used to assist with dataset exploration, feature importance interpretation, and providing analysis suggestions.
+* Google Gemini / ChatGPT → assists with compiling insights and conclusions.
