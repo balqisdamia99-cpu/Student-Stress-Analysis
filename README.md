@@ -1,10 +1,10 @@
 # Student Stress Level Analysis
 This project analyzes factors that affect student stress levels based on a national survey dataset. The analysis was performed using a Random Forest Classifier to predict the `stress_level` category.
 
-File Name: `StressLevelDataset.csv`
-Number of Data Points: 1100 rows × 21 columns
-Target: `stress_level` (3 classes)
-Dataset Link: https://www.kaggle.com/datasets/mdsultanulislamovi/student-stress-monitoring-datasets/data
+**File Name: `StressLevelDataset.csv`
+**Number of Data Points: 1100 rows × 21 columns
+**Target: `stress_level` (3 classes)
+**Dataset Link: https://www.kaggle.com/datasets/mdsultanulislamovi/student-stress-monitoring-datasets/data
 
 ## Analysis Process
 1. Data loading & initial exploration (EDA) → check structure, target distribution, unique values.
@@ -32,8 +32,3 @@ Dataset Link: https://www.kaggle.com/datasets/mdsultanulislamovi/student-stress-
 ## AI Support Explanation
 * IBM Granite → used to assist with dataset exploration, feature importance interpretation, and providing analysis suggestions.
 * Google Gemini / ChatGPT → assists with compiling insights and conclusions.
-
-* **IBM Granite (WatsonX)** → menjalankan eksperimen machine learning (Random Forest) & interpretasi hasil.
-* **Gemini / ChatGPT** → membantu menyusun insight, kesimpulan, serta dokumentasi (README.md & slide presentasi).
-
----
